@@ -7,3 +7,6 @@
 [submodule "lib/wand"]
 	path = lib/wand
 	url = https://github.com/nmushegian/wand
+[submodule "lib/ds-deed"]
+	path = lib/ds-deed
+	url = https://github.com/brianmcmichael/ds-deed
