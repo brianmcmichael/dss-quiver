@@ -4,3 +4,6 @@
 [submodule "lib/ds-deed.git"]
 	path = lib/ds-deed.git
 	url = https://github.com/brianmcmichael/ds-deed.git
+[submodule "lib/wand"]
+	path = lib/wand
+	url = https://github.com/nmushegian/wand
