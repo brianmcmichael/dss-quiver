@@ -6,11 +6,10 @@ import "./DssProxy.sol";
 
 contract DssQuiver is DSDeed("DSSQuiver", "DSSQ") {
     constructor() {
-
     }
 
     function make() external returns (uint256 id, address proxy) {
-        address proxy = address(new DssProxy(address(this)));
-        uint256 id = _mint(msg.sender, string(abi.encodePacked(proxy)));
+        uint256 id = _mint(msg.sender, "");
+        address proxy = address(new DssProxy(address(this), id));
     }
 }
