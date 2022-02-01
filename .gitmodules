@@ -1,6 +1,0 @@
-[submodule "lib/ds-test"]
-	path = lib/ds-test
-	url = https://github.com/dapphub/ds-test
-[submodule "lib/ds-deed"]
-	path = lib/ds-deed
-	url = https://github.com/brianmcmichael/ds-deed
