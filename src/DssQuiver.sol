@@ -4,6 +4,7 @@ pragma solidity ^0.8.6;
 import "ds-deed/deed.sol";
 import "./DssProxy.sol";
 
+// NFT Proxy manager
 contract DssQuiver is DSDeed("DSSQuiver", "DSSQ") {
     constructor() {
     }
